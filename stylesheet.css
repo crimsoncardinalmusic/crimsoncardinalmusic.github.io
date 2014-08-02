@@ -1,0 +1,375 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+	background-image:  url(../images/cardinalBackground.png);
+	width:  98%;
+	height:  1200px;
+	background-repeat:  no-repeat;
+	z-index:  10;
+	background-color:  #FFF;
+	background-attachment:  fixed;
+}
+
+#nav  {
+	width:  100%;
+	height:  60px;
+	position:  fixed;
+	top:  0;
+	left:  0;
+	background-color:  rgb(0,0,0);
+	z-index:  50;
+	border-bottom-color:  #FFF;
+	border-bottom-style:  solid;
+	border-bottom-width:  thin;
+}
+
+#nav  ul  {
+	width:  100%;
+	height:  25px;
+	margin-left:  50px;
+}
+
+#nav  li.support  {
+	background-color:  #900;
+	font-size:14px;
+	font-weight:  600;
+	display:  block;
+	border-radius:  20px;
+	width:  10%;
+	height:  25px;
+	text-align:  center;
+	margin-left:  -5%;	
+}
+
+#nav  li.support:hover  {
+	background-color:  #FFF;
+	color:  $900;
+	font-size:  16px;
+	font-weight:  800;
+	width:  11%;
+	font-weight:  600;	
+}
+
+p.cent  {
+	margin-top:  5px;	
+}
+
+#nav  li  {
+	width:  17%;
+	height:  35px;
+	display:  block;
+	float:  left;
+	text-align:  center;
+	color:  #FFF;
+	list-style: none;
+	font-family:  'Raleway', sans serif;
+	font-size:  20px;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+#nav  li:hover  {
+	color:  #900;
+}
+
+#name  {
+	z-index:  40;
+	font-family:  'Alegreya Sans SC', sans-serif;
+	font-weight:  800;
+	font-style:  bold;
+	font-size:  100px;
+	color:  #000;
+	text-align:  center;
+	margin-left:  auto;
+	margin-right:  auto;
+	width:  100%;
+	height:  100px;
+}
+
+#name  p.subhead  {
+	z-index:  40;
+	font-family:  'Architects daughter', cursive;
+	font-weight:  400;
+	font-style:  bold;
+	font-size:  30px;
+	margin-top:  -90px;
+	color:  #000;
+	text-align:  center;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+
+#dacontainer  {
+	background-color:  rgba(0,0,0,1);
+	background-image:  url(../images/background_abstract.png);
+	background-attachment: fixed;
+	background-repeat:  no-repeat;
+	width:  1200px;
+	height:  2400px;
+	margin-left:  auto;
+	margin-right:  auto;
+	box-shadow: 5px 5px 5px #999;
+}
+
+#music  {
+	width:  99%;
+	height:  550px;
+	margin-top:  500px;
+	margin-left:  auto;
+	margin-right:  auto;
+	z-index:  40;
+}
+
+#music  p  {
+	color:  #FFF;
+	font-family:  'Alegreya Sans SC', sans serif;
+	font-weight:  400;
+	text-align:  center;
+	font-size:  50px;
+	margin-top:  30px;
+	padding-top:  30px;
+}
+
+#reverb  {
+	margin-left:  auto;
+	margin-right:  auto;
+	width:  80%;
+}
+
+#divider  {
+	width:  85%;
+	height:  2px;
+	margin-left:  auto;
+	margin-right:  auto;
+	background-repeat:  none;
+	background-color:  #FFF;
+	margin-bottom:  20px;
+	opacity:  0.9;
+	z-index:  40;
+}
+
+#videos  {
+	width:  99%;
+	height:  500px;
+	margin-top:  -30px;
+	margin-left:  auto;
+	margin-right:  auto;
+	z-index:  40;
+}
+
+#videos  p  {
+	color:  #FFF;
+	font-family:  'Alegreya Sans SC', sans serif;
+	font-weight:  400;
+	text-align:  center;
+	font-size:  50px;
+	margin-top:  30px;
+	padding-top:  30px;
+}
+
+#lineemup  {
+	width:  95%;
+	height:  300px;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+#thekill  {
+	width:  30%;
+	height:  250;
+	margin-left:  2%;
+	margin-top:  30px;
+	float:  left;
+}
+
+#nemesis  {
+	width:  30%;
+	height:  250;
+	margin-top:  30px;
+	margin-left:  3%;
+	float:  left;
+}
+
+#swag  {
+	width:  30%;
+	height:  250;
+	margin-left:  3%;
+	margin-top:  30px;
+	float:  left;
+}
+
+#divider2  {
+	width:  85%;
+	height:  2px;
+	margin-left:  auto;
+	margin-right:  auto;
+	background-repeat:  none;
+	background-color:  #FFF;
+	margin-bottom:  20px;
+	opacity:  0.9;
+	z-index:  40;
+}
+
+#aboutme  {
+	width:  99%;
+	height:  500px;
+	margin-top:  -100px;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+#aboutme  p  {
+	color:  #FFF;
+	font-family:  'Alegreya Sans SC', sans serif;
+	font-weight:  400;
+	text-align:  center;
+	font-size:  50px;
+	margin-top:  30px;
+	padding-top:  30px;
+}
+
+#linedeezup  {
+	width:  95%;
+	height:  300px;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+#episode1  {
+	width:  30%;
+	height:  250;
+	margin-left:  15%;
+	margin-top:  30px;
+	float:  left;
+}
+
+#episode2  {
+	width:  30%;
+	height:  250;
+	margin-top:  30px;
+	margin-left:  10%;
+	float:  left;
+}
+
+#divider3  {
+	width:  85%;
+	height:  2px;
+	margin-left:  auto;
+	margin-right:  auto;
+	background-repeat:  none;
+	background-color:  #FFF;
+	margin-bottom:  20px;
+	opacity:  0.9;
+	z-index:  40;
+}
+
+#support  {
+	width:  99%;
+	height:  450px;
+	margin-top:  -100px;
+	margin-left:  auto;
+	margin-right:  auto;
+	z-index:  40;
+}
+
+#support  p  {
+	color:  #FFF;
+	font-family:  'Alegreya Sans SC', sans serif;
+	font-weight:  400;
+	text-align:  center;
+	font-size:  50px;
+	margin-top:  30px;
+	padding-top:  30px;
+}
+
+#support  p.info  {
+	color:  #FFF;
+	font-family:  'Architects daughter', cursive;
+	font-weight:  400;
+	text-align:  center;
+	font-size:  20px;
+	margin-top:  10px;
+	padding-top:  15px;
+	width:  65%;
+	margin-left:  auto;
+	margin-right:  auto;
+}
+
+#tshirt  {
+	background-image:  url(../images/tshirtOP.jpg);
+	width:  250px;
+	height:  300px;
+	float:  left;	
+}
+
+#gofundme  {
+	width:  50%;
+	height: 100%;
+	margin-left:  5%;
+	float:  left;	
+}
+
+#minicontainer  {
+	width:  60%;
+	height:  302px;
+	margin-left:  23%;
+	margin-right: auto;
+	z-index:  40;
+	overflow:  scoll;	
+}
+
+#contact  {
+	width:  99%;
+	height:  450px;
+	margin-top:  200px;
+	margin-left:  auto;
+	margin-right:  auto;
+	z-index:  40;
+}
+
+#contact  p  {
+	color:  #FFF;
+	font-family:  'Alegreya Sans SC', sans serif;
+	font-weight:  400;
+	text-align:  center;
+	font-size:  50px;
+	margin-top:  30px;
+	padding-top:  30px;
+}
+
+#contact  p.info  {
+	color:  #FFF;
+	font-family:  'Alegreya Sans SC', sans serif;
+	font-weight:  400;
+	text-align:  center;
+	font-size:  20px;
+	margin-top:  30px;
+	padding-top:  15px;
+}
+
+#contact  p.info2  {
+	color:  #FFF;
+	font-family:  'Alegreya Sans SC', sans serif;
+	font-weight:  400;
+	text-align:  center;
+	font-size:  20px;
+	margin-top:  5px;
+	padding-top:  0px;
+}
+
+#contact  a.codered  {
+	list-style:  none;
+	color:  #900;
+}
+
+#footer  {
+	width:  100%;
+	height:  50px;
+}
+
+mark.red  {
+	color:  #900;
+	background:  none;
+}
